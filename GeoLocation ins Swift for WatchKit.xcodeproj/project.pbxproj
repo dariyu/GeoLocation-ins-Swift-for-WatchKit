@@ -14,6 +14,15 @@
 		5BA2159A1A7CEC71004390D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA215991A7CEC71004390D4 /* Images.xcassets */; };
 		5BA2159D1A7CEC71004390D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA2159B1A7CEC71004390D4 /* LaunchScreen.xib */; };
 		5BA215A91A7CEC71004390D4 /* GeoLocation_ins_Swift_for_WatchKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA215A81A7CEC71004390D4 /* GeoLocation_ins_Swift_for_WatchKitTests.swift */; };
+		5BA215BC1A7CEC7D004390D4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA215BB1A7CEC7D004390D4 /* InterfaceController.swift */; };
+		5BA215BE1A7CEC7D004390D4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA215BD1A7CEC7D004390D4 /* NotificationController.swift */; };
+		5BA215C01A7CEC7D004390D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA215BF1A7CEC7D004390D4 /* Images.xcassets */; };
+		5BA215C41A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5BA215C31A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app */; };
+		5BA215CC1A7CEC7D004390D4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA215CA1A7CEC7D004390D4 /* Interface.storyboard */; };
+		5BA215CE1A7CEC7D004390D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA215CD1A7CEC7D004390D4 /* Images.xcassets */; };
+		5BA215D11A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BA215B61A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BA215DA1A7CF5AB004390D4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA215D91A7CF5AB004390D4 /* CoreLocation.framework */; };
+		5BA215DC1A7CF5B4004390D4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA215DB1A7CF5B4004390D4 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,35 @@
 			remoteGlobalIDString = 5BA215891A7CEC70004390D4;
 			remoteInfo = "GeoLocation ins Swift for WatchKit";
 		};
+		5BA215C51A7CEC7D004390D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA215821A7CEC70004390D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA215C21A7CEC7D004390D4;
+			remoteInfo = "GeoLocation ins Swift for WatchKit WatchKit App";
+		};
+		5BA215CF1A7CEC7D004390D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA215821A7CEC70004390D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA215B51A7CEC7D004390D4;
+			remoteInfo = "GeoLocation ins Swift for WatchKit WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BA215D81A7CEC7D004390D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BA215D11A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5BA2158A1A7CEC70004390D4 /* GeoLocation ins Swift for WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoLocation ins Swift for WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +75,18 @@
 		5BA215A21A7CEC71004390D4 /* GeoLocation ins Swift for WatchKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeoLocation ins Swift for WatchKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA215A71A7CEC71004390D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA215A81A7CEC71004390D4 /* GeoLocation_ins_Swift_for_WatchKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation_ins_Swift_for_WatchKitTests.swift; sourceTree = "<group>"; };
+		5BA215B61A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GeoLocation ins Swift for WatchKit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA215B91A7CEC7D004390D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA215BA1A7CEC7D004390D4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5BA215BB1A7CEC7D004390D4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5BA215BD1A7CEC7D004390D4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5BA215BF1A7CEC7D004390D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BA215C31A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoLocation ins Swift for WatchKit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA215C91A7CEC7D004390D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA215CB1A7CEC7D004390D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5BA215CD1A7CEC7D004390D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BA215D91A7CF5AB004390D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5BA215DB1A7CF5B4004390D4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +104,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BA215B31A7CEC7D004390D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA215DC1A7CF5B4004390D4 /* Social.framework in Frameworks */,
+				5BA215DA1A7CF5AB004390D4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5BA215811A7CEC70004390D4 = {
 			isa = PBXGroup;
 			children = (
+				5BA215DB1A7CF5B4004390D4 /* Social.framework */,
+				5BA215D91A7CF5AB004390D4 /* CoreLocation.framework */,
 				5BA2158C1A7CEC70004390D4 /* GeoLocation ins Swift for WatchKit */,
 				5BA215A51A7CEC71004390D4 /* GeoLocation ins Swift for WatchKitTests */,
+				5BA215B71A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension */,
+				5BA215C71A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App */,
 				5BA2158B1A7CEC70004390D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +134,8 @@
 			children = (
 				5BA2158A1A7CEC70004390D4 /* GeoLocation ins Swift for WatchKit.app */,
 				5BA215A21A7CEC71004390D4 /* GeoLocation ins Swift for WatchKitTests.xctest */,
+				5BA215B61A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex */,
+				5BA215C31A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +179,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5BA215B71A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BA215BB1A7CEC7D004390D4 /* InterfaceController.swift */,
+				5BA215BD1A7CEC7D004390D4 /* NotificationController.swift */,
+				5BA215BF1A7CEC7D004390D4 /* Images.xcassets */,
+				5BA215B81A7CEC7D004390D4 /* Supporting Files */,
+			);
+			path = "GeoLocation ins Swift for WatchKit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5BA215B81A7CEC7D004390D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA215B91A7CEC7D004390D4 /* Info.plist */,
+				5BA215BA1A7CEC7D004390D4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BA215C71A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5BA215CA1A7CEC7D004390D4 /* Interface.storyboard */,
+				5BA215CD1A7CEC7D004390D4 /* Images.xcassets */,
+				5BA215C81A7CEC7D004390D4 /* Supporting Files */,
+			);
+			path = "GeoLocation ins Swift for WatchKit WatchKit App";
+			sourceTree = "<group>";
+		};
+		5BA215C81A7CEC7D004390D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA215C91A7CEC7D004390D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +227,12 @@
 				5BA215861A7CEC70004390D4 /* Sources */,
 				5BA215871A7CEC70004390D4 /* Frameworks */,
 				5BA215881A7CEC70004390D4 /* Resources */,
+				5BA215D81A7CEC7D004390D4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5BA215D01A7CEC7D004390D4 /* PBXTargetDependency */,
 			);
 			name = "GeoLocation ins Swift for WatchKit";
 			productName = "GeoLocation ins Swift for WatchKit";
@@ -153,6 +257,39 @@
 			productReference = 5BA215A21A7CEC71004390D4 /* GeoLocation ins Swift for WatchKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5BA215B51A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA215D51A7CEC7D004390D4 /* Build configuration list for PBXNativeTarget "GeoLocation ins Swift for WatchKit WatchKit Extension" */;
+			buildPhases = (
+				5BA215B21A7CEC7D004390D4 /* Sources */,
+				5BA215B31A7CEC7D004390D4 /* Frameworks */,
+				5BA215B41A7CEC7D004390D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA215C61A7CEC7D004390D4 /* PBXTargetDependency */,
+			);
+			name = "GeoLocation ins Swift for WatchKit WatchKit Extension";
+			productName = "GeoLocation ins Swift for WatchKit WatchKit Extension";
+			productReference = 5BA215B61A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5BA215C21A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA215D21A7CEC7D004390D4 /* Build configuration list for PBXNativeTarget "GeoLocation ins Swift for WatchKit WatchKit App" */;
+			buildPhases = (
+				5BA215C11A7CEC7D004390D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeoLocation ins Swift for WatchKit WatchKit App";
+			productName = "GeoLocation ins Swift for WatchKit WatchKit App";
+			productReference = 5BA215C31A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +305,12 @@
 					5BA215A11A7CEC71004390D4 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 5BA215891A7CEC70004390D4;
+					};
+					5BA215B51A7CEC7D004390D4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5BA215C21A7CEC7D004390D4 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -186,6 +329,8 @@
 			targets = (
 				5BA215891A7CEC70004390D4 /* GeoLocation ins Swift for WatchKit */,
 				5BA215A11A7CEC71004390D4 /* GeoLocation ins Swift for WatchKitTests */,
+				5BA215B51A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension */,
+				5BA215C21A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +350,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA215B41A7CEC7D004390D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA215C01A7CEC7D004390D4 /* Images.xcassets in Resources */,
+				5BA215C41A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA215C11A7CEC7D004390D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA215CC1A7CEC7D004390D4 /* Interface.storyboard in Resources */,
+				5BA215CE1A7CEC7D004390D4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +392,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BA215B21A7CEC7D004390D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA215BE1A7CEC7D004390D4 /* NotificationController.swift in Sources */,
+				5BA215BC1A7CEC7D004390D4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +408,16 @@
 			isa = PBXTargetDependency;
 			target = 5BA215891A7CEC70004390D4 /* GeoLocation ins Swift for WatchKit */;
 			targetProxy = 5BA215A31A7CEC71004390D4 /* PBXContainerItemProxy */;
+		};
+		5BA215C61A7CEC7D004390D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA215C21A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit App */;
+			targetProxy = 5BA215C51A7CEC7D004390D4 /* PBXContainerItemProxy */;
+		};
+		5BA215D01A7CEC7D004390D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA215B51A7CEC7D004390D4 /* GeoLocation ins Swift for WatchKit WatchKit Extension */;
+			targetProxy = 5BA215CF1A7CEC7D004390D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +436,14 @@
 				5BA2159C1A7CEC71004390D4 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5BA215CA1A7CEC7D004390D4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA215CB1A7CEC7D004390D4 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,9 +530,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -350,9 +542,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -390,6 +584,62 @@
 			};
 			name = Release;
 		};
+		5BA215D31A7CEC7D004390D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GeoLocation_ins_Swift_for_WatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5BA215D41A7CEC7D004390D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = GeoLocation_ins_Swift_for_WatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5BA215D61A7CEC7D004390D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BA215D71A7CEC7D004390D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GeoLocation ins Swift for WatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +665,22 @@
 			buildConfigurations = (
 				5BA215B01A7CEC71004390D4 /* Debug */,
 				5BA215B11A7CEC71004390D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA215D21A7CEC7D004390D4 /* Build configuration list for PBXNativeTarget "GeoLocation ins Swift for WatchKit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA215D31A7CEC7D004390D4 /* Debug */,
+				5BA215D41A7CEC7D004390D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA215D51A7CEC7D004390D4 /* Build configuration list for PBXNativeTarget "GeoLocation ins Swift for WatchKit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA215D61A7CEC7D004390D4 /* Debug */,
+				5BA215D71A7CEC7D004390D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
